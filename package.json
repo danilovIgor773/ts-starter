@@ -1,0 +1,28 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "del-cli -rf build && node_modules/.bin/tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del-cli": "^1.1.0",
+    "dotenv": "^6.2.0",
+    "lodash": "^4.17.20",
+    "source-map-support": "^0.5.19",
+    "tslib": "^1.10.0",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^12.12.6",
+    "@types/source-map-support": "^0.5.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}
